@@ -1,0 +1,22 @@
+{
+  "name": "discord-starter-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with welcome messages, info commands and basic moderation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@emnapi/core": "^1.11.3",
+    "@emnapi/runtime": "^1.11.3",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "opusscript": "0.0.8",
+    "play-dl": "^1.9.7"
+  }
+}
